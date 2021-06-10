@@ -52,23 +52,23 @@ def index():
     return render_template("index.html")
 
 @app.route("/map")
-def index():
+def map():
     return render_template("map.html")
 
 @app.route("/histogram")
-def index():
+def histogram():
     return render_template("histogram.html")
 
 @app.route("/scatter")
-def index():
+def scatter():
     return render_template("scatter.html")
 
 @app.route("/line")
-def index():
+def line():
     return render_template("line.html")
 
 @app.route("/datatable")
-def index():
+def datatable():
     return render_template("datatable.html")
 
 @app.route("/data", methods=["GET"])
