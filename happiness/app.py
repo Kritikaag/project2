@@ -51,7 +51,27 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 def index():
     return render_template("index.html")
 
-@app.route("/test", methods=["GET"])
+@app.route("/map")
+def index():
+    return render_template("map.html")
+
+@app.route("/histogram")
+def index():
+    return render_template("histogram.html")
+
+@app.route("/scatter")
+def index():
+    return render_template("scatter.html")
+
+@app.route("/line")
+def index():
+    return render_template("line.html")
+
+@app.route("/datatable")
+def index():
+    return render_template("datatable.html")
+
+@app.route("/data", methods=["GET"])
 def welcome():
     """List all available api routes."""
     
