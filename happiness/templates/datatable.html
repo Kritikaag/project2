@@ -19,7 +19,7 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="/index"> About: Project Summary </a>
+					<a class="nav-link" href="/"> About: Project Summary </a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="/map"> Map </a>
@@ -30,9 +30,9 @@
 				<li class="nav-item">
 					<a class="nav-link" href="/scatter"> Scatter </a>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-link" href="/line"> Line </a>
-				</li>
+				</li> -->
 				<li class="nav-item">
 					<a class="nav-link" href="/datatable"> Data Table</a>
 				</li>
@@ -51,8 +51,10 @@
 <div class="textbox-light">
 <div class="col-md-12 table_container">
     <div id="table-area" class="">
-    <input type="text" id="myInput" onkeyup="searchCountry()" placeholder="Search for a Country" title="Data Search Bar">
-    <input type="text" id="myInput1" onkeyup="searchYear()" placeholder="Search for a Year" title="Data Search Bar">
+	<input type="text" id="myInput2" onkeyup="searchContinent()" placeholder="Search for a Continent" title="Data Search Bar"> &nbsp;&nbsp;
+    <input type="text" id="myInput" onkeyup="searchCountry()" placeholder="Search for a Country" title="Data Search Bar"> &nbsp;&nbsp;
+    <input type="text" id="myInput1" onkeyup="searchYear()" placeholder="Search for a Year" title="Data Search Bar"> &nbsp;&nbsp;
+
 
     <table id="data-table" class="table table-striped" style="text-align: center;">
         <br><br>

@@ -19,7 +19,7 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 		<ul class="navbar-nav mr-auto">
 			<li class="nav-item">
-				<a class="nav-link" href="/index"> About: Project Summary </a>
+				<a class="nav-link" href="/"> About: Project Summary </a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="/map"> Map </a>
@@ -30,9 +30,9 @@
 			<li class="nav-item">
 				<a class="nav-link" href="/scatter"> Scatter </a>
 			</li>
-			<li class="nav-item">
+			<!-- <li class="nav-item">
 				<a class="nav-link" href="/line"> Line </a>
-			</li>
+			</li> -->
 			<li class="nav-item">
 				<a class="nav-link" href="/datatable"> Data Table</a>
 			</li>
@@ -49,9 +49,12 @@
 </div>
 
 <div class="textbox-light">
-	<h3 style="text-align: center;"> About </h3>
-	<p> In this project we expl</p><br>
-	<p><a href="https://github.com/Kritikaag/project2">Code Repo</a></p>
+	<h3 style="text-align: center;"> About </h3><br>
+	<p>In this project we explored The Happiness Index around the world.</p>
+	<p>As defined by the Happiness Council in 2012:</p>
+	<p>"The Happiness Index is defined as the weighted (by sampling weights) rate of respondents reporting “Very happy” or “Quite happy” less the weighted rate of respondents reporting “Not very happy” or “Not at all happy,” plus 100. The index thus ranges from 0 to 200"</p><br>
+	<p>There are 7 key metrics of measurement that together, make up the final Happiness Index. Thes 7 areas of measurement are: </p>
+	<p><b>GDP Per Capita &emsp; Social Support &emsp; Life Expectancy &emsp; Freedom &emsp; Generosity &emsp; Corruption &emsp; Happiness Rating</b></p>
 </div>
 
 <div class="bg_image_02">
@@ -61,26 +64,17 @@
 </div>
 
 <div class="textbox-dark">
-	<h3 style="text-align: center;"> Visualisations </h3>
-	<p> Click on snapshoots of all the charts to view them.</p>
-	<div class="row">
-		<div class="column">
-			<a href="/"><img src="../static/images/bar_graph.png" alt="Chart Placeholder"></a>
-			<a href="/"><img src="../static/images/line_graph.png" alt="Chart Placeholder"></a>
-		</div>
-		<div class="column">
-			<a href="index.html"><img src="../static/images/line_graph.png" alt="Chart Placeholder"></a>
-			<a href="index.html"><img src="../static/images/bar_graph.png" alt="Chart Placeholder"></a>
-		</div>
-		<div class="column">
-			<a href="index.html"><img src="../static/images/bar_graph.png" alt="Chart Placeholder"></a>
-			<a href="index.html"><img src="../static/images/line_graph.png" alt="Chart Placeholder"></a>
-		</div>
-		<div class="column">
-			<a href="index.html"><img src="../static/images/bar_graph.png" alt="Chart Placeholder"></a>
-			<a href="index.html"><img src="../static/images/line_graph.png" alt="Chart Placeholder"></a>
+	<h3 style="text-align: center;"> Visualisations </h3><br>
+	<p style="text-align: center;"> Click on an image below to view the charts and graphs</p><br>
+
+	<div class="vis-row">
+		<div class="vis-column">
+			&emsp;&emsp;&emsp;&emsp;&emsp;<a href="/map"><img src="../static/images/map.png" alt="Chart Placeholder" style="width: 250px; height: 250px;"></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<a href="/histogram"><img src="../static/images/histogram.png" alt="Chart Placeholder" style="width: 250px; height: 250px;"></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<a href="/scatter"><img src="../static/images/scatter.png" alt="Chart Placeholder" style="width: 250px; height: 250px;"></a>
 		</div>
 	</div>
+
 </div>
 
 <div class="bg_image_03">
@@ -91,8 +85,18 @@
 </div>
 
 <div class="textbox-dark">
-	<h3 style="text-align: center;"> Data </h3>
-	<p> link to the data, so conversion of csv to tables</p>
+	<h3 style="text-align: center;"> Data </h3><br>
+	<p>An overview of the 7 metrics and what they measure:</p>
+	<p><b>GDP Per Capita:</b> Gross Domestic Product is the value of all the goods and services a country produces on a yearly basis</p>
+	<p><b>Social Support:</b> “If you were in trouble, do you have relatives or friends you can count on to help you whenever you need them, or not?” (YES) 1 point (NO) 0 point</p>
+	<p><b>Life Expectancy:</b> The estimate for the average number of “healthy” years a child at birth is estimated to live</p>
+	<p><b>Freedom:</b> “Are you satisfied or dissatisfied with your freedom to choose what you do with your life?” (YES) 1 point (NO) 0 point</p>
+	<p><b>Generosity:</b> Have you donated money to a charity in the past month?” (YES) 1 point (NO) 0 point</p>
+	<p><b>Corruption:</b> “Is corruption widespread throughout the government or not?” &ensp; “Is corruption widespread within businesses or not?” Average of answers is recorded (YES) 1 point (NO) 0 point</p>
+	<p><b>Happiness Rating:</b> Refers to how much of the Happiness Index cannot be explained by social measures and the other metrics.</p><br>
+	<p><i>Where questions are asked, these are answered by applicants in the Gallup World Poll, where The Happiness Report sources their data.</i></p>
+	<p>The dataset we used was found on Kaggle <i>(which has been linked below)</i>. We choose data that was collated from years 2011 to 2020</p><br>
+	<p><a href="https://github.com/Kritikaag/project2">GitHub Code Repo</a> &emsp; <a href="https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021">Data Set</a></p>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

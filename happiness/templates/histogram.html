@@ -12,7 +12,7 @@
 <body>
 	<div class="navigation">
 		<nav class="navbar navbar-expand-lg navbar-dark">
-			<a href="/"><img src="../images/earth_happy_02.png" alt="Happy Earth" style="width:40px;height:40px;"></a>
+			<a href="/"><img src="../static/images/earth_happy_02.png" alt="Happy Earth" style="width:40px;height:40px;"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 			</button>
@@ -20,7 +20,7 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="/index"> About: Project Summary </a>
+					<a class="nav-link" href="/"> About: Project Summary </a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="/map"> Map </a>
@@ -31,9 +31,9 @@
 				<li class="nav-item">
 					<a class="nav-link" href="/scatter"> Scatter </a>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item">
 					<a class="nav-link" href="/line"> Line </a>
-				</li>
+				</li> -->
 				<li class="nav-item">
 					<a class="nav-link" href="/datatable"> Data Table</a>
 				</li>
@@ -50,29 +50,44 @@
 </div>
 
 <div class="textbox-light">
-	<div class="col-md-12 table_container">
-	</div>
-	<h5>Select Year:</h5>
-	<select id="selDataset">
-	  <option>Choose a Year</option>
-	</select>
-	<div class="histogram">
-	</div>
-	<div class="histogram-asia">
-	</div>
-	<div class="histogram-africa">
-	</div>
-	<div class="histogram-southamerica">
-	</div>
-	<div class="histogram-northamerica">
-	</div>
-	<div class="histogram-europe">
-	</div>
-	<div class="histogram-oceania">
-	</div>
+	<div class="col-md-12 table_container ">
+		
+		<h5>Select Year:</h5>
+		<select id="selDataset">
+		<option>Choose a Year</option>
+		</select>
+		<div class="histogram">
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<div class="histogram-asia">
+			</div>
+		</div>
+				<div class="histogram-africa">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<div class="histogram-southamerica">
+			</div>
+		</div>
+				<div class="histogram-northamerica">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<div class="histogram-europe">
+			</div>
+		</div>
+				<div class="histogram-oceania">
+			</div>
+		</div>	
 	</div>
 </div>
-</div>
+
 
 
 
