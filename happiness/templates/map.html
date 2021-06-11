@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Map Chart</title>
+    <title>Map</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -11,44 +11,53 @@
 </head>
 
 <body>
-	<div class=“navigation”>
-		<nav class=“navbar navbar-expand-lg navbar-dark”>
-			<a href=“/”><img src=“../images/earth_happy_02.png” alt=“Happy Earth” style=“width:40px;height:40px;“></a>
-			<button class=“navbar-toggler” type=“button” data-toggle=“collapse” data-target=“#navbarSupportedContent” aria-controls=“navbarSupportedContent” aria-expanded=“false” aria-label=“Toggle navigation”>
-			<span class=“navbar-toggler-icon”></span>
+	<div class="navigation">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a href="/"><img src="../images/earth_happy_02.png" alt="Happy Earth" style="width:40px;height:40px;"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class=“collapse navbar-collapse” id=“navbarSupportedContent”>
-			<ul class=“navbar-nav mr-auto”>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“/”> About: Project Summary </a>
+	
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/index"> About: Project Summary </a>
 				</li>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“/map”> Map </a>
+				<li class="nav-item">
+					<a class="nav-link" href="/map"> Map </a>
 				</li>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“/histogram”> Histogram </a>
+				<li class="nav-item">
+					<a class="nav-link" href="/histogram"> Histogram </a>
 				</li>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“/scatter”> Scatter </a>
+				<li class="nav-item">
+					<a class="nav-link" href="/scatter"> Scatter </a>
 				</li>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“/line”> Line </a>
+				<li class="nav-item">
+					<a class="nav-link" href="/line"> Line </a>
 				</li>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“/datatable”> Data Table</a>
+				<li class="nav-item">
+					<a class="nav-link" href="/datatable"> Data Table</a>
 				</li>
 			</ul>
 			</div>
 		</nav>
 	</div>
+
+<div class="bg_image_04">
+	<div class="caption">
+		<span class="caption_border"> Map Charts </span>
+	</div>
+</div>
+
+<div class="textbox-light">
 	<h5>Select Year:</h5>
 	<select id="selDataset">
 	  <option>Choose a Year</option>
 	</select>
 	<div id="regions_div" style="width: 1400px; height: 800px;"></div>
 	</div>
+</div>
 
-<div class="bg_image_04"></div>
 
 
 

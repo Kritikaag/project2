@@ -3,37 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Data</title>
+    <title>Data Table</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
 </head>
 
 <body>
-	<div class=“navigation”>
-		<nav class=“navbar navbar-expand-lg navbar-dark”>
-			<a href=“index.html”><img src=“../images/earth_happy_02.png” alt=“Happy Earth” style=“width:40px;height:40px;“></a>
-			<button class=“navbar-toggler” type=“button” data-toggle=“collapse” data-target=“#navbarSupportedContent” aria-controls=“navbarSupportedContent” aria-expanded=“false” aria-label=“Toggle navigation”>
-			<span class=“navbar-toggler-icon”></span>
+	<div class="navigation">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a href="/"><img src="../images/earth_happy_02.png" alt="Happy Earth" style="width:40px;height:40px;"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
 			</button>
-			<div class=“collapse navbar-collapse” id=“navbarSupportedContent”>
-			<ul class=“navbar-nav mr-auto”>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“index.html”> About: Project Summary </a>
+	
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/index"> About: Project Summary </a>
 				</li>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“map.html””> Map </a>
+				<li class="nav-item">
+					<a class="nav-link" href="/map"> Map </a>
 				</li>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“histogram.html””> Histogram </a>
+				<li class="nav-item">
+					<a class="nav-link" href="/histogram"> Histogram </a>
 				</li>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“scatter.html””> Scatter </a>
+				<li class="nav-item">
+					<a class="nav-link" href="/scatter"> Scatter </a>
 				</li>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“line.html””> Line </a>
+				<li class="nav-item">
+					<a class="nav-link" href="/line"> Line </a>
 				</li>
-				<li class=“nav-item”>
-					<a class=“nav-link” href=“datatable.html””> Data Table</a>
+				<li class="nav-item">
+					<a class="nav-link" href="/datatable"> Data Table</a>
 				</li>
 			</ul>
 			</div>
@@ -41,14 +42,14 @@
 	</div>
 
 
-<div class="bg_image_04"></div>
-
-<div class="textbox-light">
-	<h3 style="text-align: center;"> Data </h3>
-	<p> Here you will find the raw data that has been used to create the visualisations.</p>
+<div class="bg_image_04">
+	<div class="caption">
+		<span class="caption_border"> Data Table </span>
+	</div>
 </div>
 
-<div class="col-md-10">
+<div class="textbox-light">
+<div class="col-md-12 table_container">
     <div id="table-area" class="">
     <input type="text" id="myInput" onkeyup="searchCountry()" placeholder="Search for a Country" title="Data Search Bar">
     <input type="text" id="myInput1" onkeyup="searchYear()" placeholder="Search for a Year" title="Data Search Bar">
@@ -58,6 +59,8 @@
         <thead>
           <tr>
             <th class="table-head">Country</th>    
+			<th class="table-head">ID</th>  
+			<th class="table-head">Continent</th>
             <th class="table-head">Year</th>
             <th class="table-head">Happiness Rating</th>
             <th class="table-head">GDP Per Capita</th>
@@ -72,6 +75,7 @@
       </table>
     </div>
   </div>
+</div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -79,6 +83,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="../static/js/datatable.js"></script>
+
 
 </body>
 </html>
