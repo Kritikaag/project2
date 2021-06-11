@@ -38,8 +38,7 @@ Correlation analysis between happiness and other factors. https://happiness25.he
 
 Scatter plots allowed us to assess the relationship between parameters that might influence happiness scores. We observe a positive strong correlation between happiness scores and GDP per capita, life expectancy and social support and no apparent relationship between these factors with scores for generosity and freedom.
 
-<img width="798" alt="Screen Shot 2021-06-12 at 8 57 11 am" src="https://user-images.githubusercontent.com/77761497/121756082-4e899000-cb5c-11eb-9241-0df17d7b6ff6.png">
-
+<img width="778" alt="Screen Shot 2021-06-12 at 8 59 34 am" src="https://user-images.githubusercontent.com/77761497/121756189-a1634780-cb5c-11eb-9b39-a77dcc765220.png">
 
 
 
