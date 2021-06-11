@@ -25,7 +25,7 @@
 }
 
 .bg_image_04 {
-  background-image: url("../images/happy_group.png");
+  background-image: url("/../../images/happy_group.png");
   opacity: 0.7;
   min-height: 230px;  
   margin-top: 30px;
