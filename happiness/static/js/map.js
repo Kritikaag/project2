@@ -73,3 +73,6 @@ function drawRegionsMap() {
         chart.draw(data, options);
     });
 };
+
+
+
