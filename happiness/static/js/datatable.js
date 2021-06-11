@@ -18,7 +18,7 @@ data.forEach((data) => {
 
 function searchContinent() {
   var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput1");
+  input = document.getElementById("myInput2");
   filter = input.value.toUpperCase();
   table = document.getElementById("data-table");
   tr = table.getElementsByTagName("tr");
@@ -72,5 +72,7 @@ function searchCountry() {
       }       
     }
   }
+
+
 
 
