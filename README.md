@@ -1,6 +1,7 @@
 # World Happiness Report
 
 In this project we explored The Happiness Index around the world and deployed the information on an interactive dashboard: https://happiness25.herokuapp.com/
+
 There are 7 key metrics of measurement that together, make up the final Happiness Index. These 7 areas of measurement are:
 
 GDP Per Capita   Social Support   Life Expectancy   Freedom   Generosity   Corruption   Happiness Rating
